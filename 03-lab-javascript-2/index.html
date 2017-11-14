@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Local Storage</title>
+  <style>
+    #get-name {
+      background: #eee;
+      padding: 0.5em;
+    }
+    h1 {
+      background: #333;
+      color: #eee;
+      padding-left: 0.25em
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello <span id="my-name"></span><span id="last-name!"></span>!</h1>
+
+  <form id="get-name" action="#" method="post">
+    <label for="user-name">Enter name:</label>
+    <input type="text" id="user-name" placeholder="Your name?">
+    <input type="submit">
+	<p>
+	
+  <form id="get-family" action="#" method="post">
+	<label for="family-name">Enter last name (Family name):</label>
+	<input type="text" id="family-name" placeholder="Last name?">
+	<input type="submit">
+	
+<button type="button" onclick="localStorage.clear()">Clear</button>
+
+  <script src="js/localstore.js"></script>
+</body>
+</html>

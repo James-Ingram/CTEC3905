@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: #fee;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+header {
+  background-color: #655;
+  color: #fff;
+}
+header h1 {
+  font-size: 1.8em;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 2em;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 4.9em;
+  right: 0;
+  width: 26%;
+  font-size: 1.25em;
+  line-height: 2.5em;
+  text-align: right;
+  background: #fee;
+}
+nav a:link,
+nav a:visited {
+  display: block;
+  background: #a99;
+  text-decoration: none;
+  padding: 0 1em;
+  color: #fff;
+  border-bottom: 6px solid #fee; /* blends into background */
+  transition: all 0.7s;
+  border-top-left-radius: 100%;
+  /*border-bottom-left-radius: 100%;*/
+}
+nav a:hover,
+nav a.here  {
+  background: #766;
+  color: #ccc;
+}
+nav a.here {
+  color: #fff;
+  background: #655;
+}
+
+main {
+  width: 74%;
+  float: left;
+  padding: 0;
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.75em;
+  overflow: auto;
+  /*border: 1px solid red;*/
+}
+
+section {
+  /* 'relative' sets the CONTEXT for the 'TOP' link absolute posiiton */
+  position: relative;
+  width: 45%; /* 45% of the available space in the PARENT element (main) */
+  display: inline-block;
+  margin: 1.5em 2% 0; /* top, right and left, bottom */
+  padding: 17px;
+  background: #fff;
+  overflow: auto;
+  box-sizing: border-box;
+  min-height: 33em;
+  border-radius: 10px;
+}
+section h2 {
+  font-size: 1.25em;
+  margin: 0;
+  color: #fff;
+  background: #655;
+  line-height: 2.5em;
+}
+
+section p {
+  margin: 1em 0 0; /* top, right and left, bottom */
+  text-align: left;
+}
+/* the 'absolute' value is set 'relative' the first parent that has a 'position' */
+section a[href="#"] {
+  position: absolute;
+  bottom: 1em;
+  right: 4%;
+  display: block;
+  color: #655;
+  text-align: right;
+  text-decoration: none;
+}
+section a[href="#"]:hover {
+  font-weight: bold;
+}
+/* SEE http://www.w3schools.com/css/css_attribute_selectors.asp */
+
+figure {
+  width: 38%;
+  float: left;
+  border: 1px solid #333;
+  background: #655;
+  color: #fff;
+  padding: 0;
+  margin: 1.25em 3% 0.25em 0; /* top, right, bottom, left */
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figure figcaption {
+  text-align: center;
+  padding: 2px 6px;
+}
+
+footer {
+  clear: both;
+  border-top: 2px solid #766;
+  padding: 0.5em 30px; /* top and bottom, right and left */
+  background-color: #a99;
+  text-align: right;
+}

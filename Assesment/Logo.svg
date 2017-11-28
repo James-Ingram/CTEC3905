@@ -1,0 +1,81 @@
+
+<svg width="600" height="150" >
+ <g>
+
+  <rect x="-1" y="-1" width="602" height="152" id="canvas_background" fill="none"/>
+  
+   <g id="canvasGrid" display="none">
+    <rect id="svg_1" width="601" height="214" x="1" y="1" stroke-width="0" fill="url(#gridpattern)"/>
+   </g>
+
+ </g>
+ <g>
+  <g id="svg_12">
+   <rect 
+    stroke="#000" 
+    fill="#C48157" 
+    stroke-width="1.5" 
+    stroke-opacity="null" 
+    x="143.5" 
+    width="375" 
+    height="100" 
+    id="svg_3"/>
+   
+   <ellipse 
+    stroke="#000" 
+    ry="50" 
+    rx="152" 
+    d="svg_4" 
+    cy="50" 
+    cx="156" 
+    stroke-opacity="null" 
+    stroke-width="1.5" 
+    fill="#805064"/>
+
+   <path 
+    transform="rotate(37 527.5,112)" 
+    stroke="#000" 
+    id="svg_6" 
+    d="m517.828126,108.135133l4.811519,0l0,-6.77243c0,0 0,0 0,-0.002391c0,-5.711026 -4.236489,-10.358256 -9.440073,-10.358256c-5.207941,0 -9.442251,4.64723 -9.442251,10.358256c0,0 0,0 0,0l0,6.774821l-4.356287,0l0,-6.774821l0.002178,0c0.002178,-8.362146 6.177214,-15.139357 13.79636,-15.139357s13.79636,6.779602 13.79636,15.141748l0,6.77243l28.405167,0l0,29.08583l-37.572972,0l0,-29.08583z" 
+    stroke-opacity="null" 
+    stroke-width="1.5" 
+    fill="#000000"/>
+
+   <text 
+    stroke="#000" 
+    transform="rotate(0.43829700350761414 171.08926391602012,47.61832809448411) matrix(3.174849212649699,0,0,3.427005824808525,-167.73331210926855,-163.24966020977806)" 
+    font-weight="bold" 
+    xml:space="preserve" 
+    text-anchor="start" 
+    font-family="Helvetica, Arial, sans-serif" 
+    font-size="24" 
+    id="svg_5" 
+    y="69.84433" 
+    x="64.730177" 
+    fill-opacity="null" 
+    stroke-opacity="null" 
+    stroke-width="0" 
+    fill="#000000">
+    Crypto
+   </text>
+
+   <text 
+    stroke="#000" 
+    transform="matrix(3.829843231068564,0,0,3.1843961861467864,-209.01428075770323,-140.9095046575356)" 
+    font-weight="bold" 
+    xml:space="preserve"
+    text-anchor="start" 
+    font-family="Helvetica, Arial, sans-serif" 
+    font-size="24" 
+    id="svg_9" 
+    y="69.238552" 
+    ="136.895292" 
+    fill-opacity="null" 
+    stroke-opacity="null" 
+    stroke-width="0" 
+    fill="#000000">
+    Web
+   </text>
+  </g>
+
+</svg>

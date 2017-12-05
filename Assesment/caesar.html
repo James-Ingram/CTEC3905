@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> CrytoWeb </title>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter' >
   </head>
 
   <body style="background-color:#805064;">
-    <div id="banner">
+    <div class="banner">
       <!--
         SVG Notes
         
@@ -43,7 +43,7 @@
         </linearGradient>
 
         <rect  x="70" width="160" height="50" fill="#C48157" />
-        <ellipse id" cx="225" cy="25" rx="75" ry="25" fill="url(#g2)" />
+        <ellipse cx="225" cy="25" rx="75" ry="25" fill="url(#g2)" />
         <ellipse  cx="75" cy="25" rx="75" ry="25" fill="url(#g1)" />
         <text font-weight="bold" font-family="Architects Daughter" font-size="35" x="60" y="35" fill="#000000">CryptoWeb</text>
       </svg>
@@ -51,11 +51,11 @@
       
     
     </div>
-    <p style="font-family:Architects Daughter; text-align: center; font-size:150%;"><strong>A fun site to learn about the basics of cryptography</strong></p>
+    <p class="tagline"><strong>A fun site to learn about the basics of cryptography</strong></p>
     <main>
       
       <nav>
-        <ul style="font-family:Helvetica">
+        <ul>
           <li><a href="index.html"><strong>Home</strong></a></li>
           <li><a href="caesar.html"><strong>Caesar</strong></a></li>
           <li><a href="route.html"><strong>Route</strong></a></li>
@@ -63,31 +63,20 @@
         </ul>
       </nav>
 
-      <br></br>
-
-      <article style="font-family:Architects Daughter">
-        
-        <section>
-          <h2>Section 1</h2>
-          <p>some text and content </p>
+        <section class="form">
+          <h6 class="hidden"> Filler </h6>
+            <section class="subSection">
+              <h2 class="lowerHeader">Section 1</h2>
+              <p>Here's the encryptedtext: <span id="user-output">Default</span>!</p> 
+            <form id="get-input" action="#" method="post">
+              <label>Try your own encryption:</label>
+              <input type="text" id="user-input" placeholder="Enter some text to encrpyt!">
+              <input type="number" id="user-number" placeholder="0" min="0" max="26">
+              <input type="submit">
+            </form>
+            <script src="scripts/caesar.js"></script>
+            </section>
         </section>
-        
-        <section>
-          <h2>Section 2</h2>
-          <p>some text and content</p>
-        </section>
-        
-        <section>
-          <h2>Section 3</h2>
-          <p>some text and content </p>
-        </section>
-        
-        <section>
-          <h2>Section 4</h2>
-          <p>some text and content </p>
-        </section>
-      
-      </article>
     </main>
   </body>
-</html
+</html>
